@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="175.0" y="629.0">ru.ifmo.se.pokemon.FireMove</node>
+    <node x="470.0" y="521.0">ru.ifmo.se.pokemon.PhysicalMove</node>
+    <node x="618.5" y="387.5">ru.ifmo.se.pokemon.StatusMove</node>
+    <node x="85.5" y="580.0">ru.attacks.AuroraBeam</node>
+    <node x="69.5" y="387.5">ru.attacks.Psychic</node>
+    <node x="-78.0" y="132.5">ru.ifmo.se.pokemon.Messages_en</node>
+    <node x="343.0" y="181.5">ru.ifmo.se.pokemon.Battle</node>
+    <node x="-78.0" y="521.0">ru.attacks.GigaDrain</node>
+    <node x="4.0" y="83.5">ru.ifmo.se.pokemon.Team</node>
+    <node x="314.0" y="629.0">ru.attacks.SwordsDance</node>
+    <node x="794.5" y="387.5">ru.attacks.Splash</node>
+    <node x="-78.0" y="230.5">ru.ifmo.se.pokemon.Type</node>
+    <node x="195.5" y="387.5">ru.ifmo.se.pokemon.DamageMove</node>
+    <node x="85.0" y="521.0">ru.ifmo.se.pokemon.SpecialMove</node>
+    <node x="-78.0" y="181.5">ru.ifmo.se.pokemon.Effect</node>
+    <node x="144.5" y="456.5">ru.attacks.Swagger</node>
+    <node x="-78.0" y="279.5">ru.ifmo.se.pokemon.Pokemon</node>
+    <node x="797.0" y="521.0">ru.attacks.IcyWind</node>
+    <node x="158.0" y="181.5">ru.ifmo.se.pokemon.Messages_ru_RU</node>
+    <node x="481.0" y="629.0">ru.attacks.BodySlam</node>
+    <node x="38.0" y="181.5">ru.ifmo.se.pokemon.Status</node>
+    <node x="-67.5" y="34.5">ru.ifmo.se.pokemon.Messages</node>
+    <node x="625.0" y="629.0">ru.attacks.Confide</node>
+    <node x="222.5" y="328.5">ru.ifmo.se.pokemon.Move</node>
+    <node x="-78.0" y="-14.5">ru.ifmo.se.pokemon.Stat</node>
+    <node x="636.0" y="521.0">ru.attacks.DoubleTeam</node>
+    <node x="929.0" y="521.0">ru.attacks.Rest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.attacks.AuroraBeam" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.attacks.IcyWind" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="848.0" y="446.5" />
+      <point x="681.5" y="446.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.FireMove" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="229.5" y="570.0" />
+      <point x="150.0" y="570.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.attacks.Psychic" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="-32.5" y="-14.5" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.StatusMove" target="ru.ifmo.se.pokemon.Move" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="681.5" y="377.5" />
+      <point x="265.5" y="377.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.attacks.Confide" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="675.0" y="619.0" />
+      <point x="455.0" y="619.0" />
+      <point x="455.0" y="501.0" />
+      <point x="681.5" y="501.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.attacks.GigaDrain" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="56.5" y="-0.0" />
+      <point x="-65.0" y="-0.0" />
+    </edge>
+    <edge source="ru.attacks.BodySlam" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.attacks.Splash" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="-46.0" y="-0.0" />
+      <point x="63.0" y="-0.0" />
+    </edge>
+    <edge source="ru.attacks.DoubleTeam" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="701.5" y="446.5" />
+      <point x="681.5" y="446.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.SpecialMove" target="ru.ifmo.se.pokemon.DamageMove" relationship="GENERALIZATION">
+      <point x="32.5" y="-14.5" />
+      <point x="182.5" y="511.0" />
+      <point x="265.5" y="511.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.attacks.Rest" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="968.0" y="511.0" />
+      <point x="661.5" y="511.0" />
+      <point x="661.5" y="446.5" />
+      <point x="681.5" y="446.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.DamageMove" target="ru.ifmo.se.pokemon.Move" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.attacks.Swagger" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="197.5" y="446.5" />
+      <point x="681.5" y="446.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.PhysicalMove" target="ru.ifmo.se.pokemon.DamageMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="538.0" y="436.5" />
+      <point x="265.5" y="436.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.Messages_en" target="ru.ifmo.se.pokemon.Messages" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.attacks.SwordsDance" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="382.5" y="491.0" />
+      <point x="641.5" y="491.0" />
+      <point x="641.5" y="446.5" />
+      <point x="681.5" y="446.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7113997113997114" showDependencies="false" x="474.4999999999999" y="415.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

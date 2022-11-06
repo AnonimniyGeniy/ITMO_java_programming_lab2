@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="pokemons:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/pokemons_jar</output-path>
+    <root id="archive" name="pokemons.jar">
+      <element id="module-output" name="pokemons" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Pokemon.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Pokemon" />
+    </root>
+  </artifact>
+</component>

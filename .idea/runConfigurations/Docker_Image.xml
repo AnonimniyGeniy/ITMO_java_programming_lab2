@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Docker Image" type="docker-deploy" factoryName="docker-image" singleton="false" server-name="Docker">
+    <deployment type="docker-image">
+      <settings>
+        <option name="imageTag" value="bellsoft/liberica-openjdk-alpine:latest" />
+        <option name="attachToContainerNeeded" value="true" />
+        <option name="containerName" value="main" />
+      </settings>
+    </deployment>
+    <method v="2">
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="pokemons:jar" />
+      </option>
+    </method>
+  </configuration>
+</component>
