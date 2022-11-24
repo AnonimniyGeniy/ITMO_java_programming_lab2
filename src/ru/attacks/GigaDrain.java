@@ -9,8 +9,8 @@ public class GigaDrain extends SpecialMove {
 
     @Override
     protected void applySelfEffects(Pokemon p) {
-        long new_hp = Math.round((p.getStat(Stat.HP) - p.getHP()) * 0.5);
-        Effect e = new Effect().turns(1).stat(Stat.HP, -1 * (int) new_hp);
+        long newHp = Math.round((p.getStat(Stat.HP) - p.getHP()) * 0.5);
+        Effect e = new Effect().turns(1).stat(Stat.HP, -1 * (int) newHp);
         p.addEffect(e);
     }
 

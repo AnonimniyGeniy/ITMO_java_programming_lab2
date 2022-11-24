@@ -3,8 +3,8 @@
     <output-path>$PROJECT_DIR$/out/artifacts/pokemons_jar</output-path>
     <root id="archive" name="pokemons.jar">
       <element id="module-output" name="pokemons" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/Pokemon.jar" path-in-jar="/" />
       <element id="library" level="project" name="Pokemon" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/out/artifacts/pokemons_jar/Pokemon.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

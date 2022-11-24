@@ -19,6 +19,7 @@ public class Main {
         b.addFoe(p4);
         b.addFoe(p5);
         b.addFoe(p6);
+        //System.out.println(b.allies.size());
         b.go();
     }
 }
